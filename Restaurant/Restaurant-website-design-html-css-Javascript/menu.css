@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 99%;
+    height: 97%;
+    background-image: url('Background2.png');
+    background-size: cover;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.logo {
+    font-size: 30px;
+    color: orange;
+}
+
+.nav {
+    position: relative;
+    left: -180px;
+}
+
+a {
+    padding: 5px 15px;
+    color: orange;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.search {
+    font-size: 25px;
+}
+
+.search i {
+    padding: 5px 20px;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 20px;
+}
+
+.menu-title h1 {
+    font-size: 60px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.menu-section {
+    width: 80%;
+    margin: 40px 0;
+}
+
+.menu-section h2 {
+    font-size: 40px;
+    color: orange;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    border-bottom: 1px solid #ddd;
+    transition: background 0.3s;
+}
+
+.menu-item:hover {
+    background: rgba(255, 165, 0, 0.1);
+}
+
+.menu-item p {
+    margin: 0;
+    font-size: 24px;
+    color: #222;
+}
+
+.menu-item span {
+    font-weight: bold;
+    color: orange;
+    font-size: 24px;
+}
+
+#food1, #food2 {
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin: 0px 20px;
+}
+
+#food1 {
+    background-image: url('food1.png');
+}
+
+#food2 {
+    background-image: url('food.jpg');
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
